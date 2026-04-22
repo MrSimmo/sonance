@@ -22,7 +22,13 @@ Sonance turns your Samsung smart TV into a full-featured music player. Browse yo
 
 ## Screenshots
 
-*Add screenshots of your TV running Sonance here.*
+![Home screen](screenshots/home.jpg)
+![Login screen](screenshots/login.jpg)
+![Artist bio](screenshots/artistbio.jpg)
+![Now Playing](screenshots/nowplaying.jpg)
+![Lyrics](screenshots/lyrics.jpg)
+![Search](screenshots/search.jpg)
+![Accent Colours](screenshots/accentcolours.jpg)
 
 ## Requirements
 
@@ -114,7 +120,8 @@ python3 -m http.server 8080
 # Open http://localhost:8080 in your browser
 ```
 
-The app runs in any modern browser for development. AVPlay features (hardware decoding, media keys) only work on the TV — the browser uses HTML5 Audio as a fallback.
+The app runs in any modern browser for development. AVPlay features (hardware decoding, media keys) only work on the TV — the browser uses HTML5 Audio as a fallback. 
+
 
 ### Project structure
 
@@ -166,6 +173,7 @@ This app targets Samsung TVs from 2019, which run Chromium 63. Key limitations t
 ## Licence
 
 GNU GPL v3. You are free to use this however you want as long as it stays free and open-source. You cannot commercialise this or close source any version of it. 
+You cannot use this to train AI.
 
 ## Acknowledgements
 
