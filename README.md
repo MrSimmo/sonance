@@ -64,7 +64,7 @@ This creates `Sonance.wgt` (~100KB) which you can install via Jellyfin2Samsung.
 3. Enter your username and password
 4. You're in — start browsing and playing
 
-Sonance communicates with your server via the Subsonic REST API. Your credentials are used to generate authentication tokens and are never stored in plain text.
+Sonance communicates with your server via the Subsonic REST API. 
 
 ## Remote Controls
 
