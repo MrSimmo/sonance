@@ -153,7 +153,6 @@ sonance/
 │       ├── playlists.js
 │       ├── settings.js
 │       └── login.js
-├── docs/               # Deployment and testing docs
 ```
 
 ### Tizen 5.0 / Chromium 63 constraints
@@ -167,6 +166,7 @@ This app targets Samsung TVs from 2019, which run Chromium 63. Key limitations t
 - `scrollIntoView` with options is unreliable — use manual scroll calculations
 - Use `webkitAudioContext` as fallback for `AudioContext`
 - Use `grid-gap` not `gap` for CSS Grid
+- Passwords are stored in localstorage in plain text on the TV. This is a limitation of Tizen without trying to build an encryption library.
 
 
 
