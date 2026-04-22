@@ -41,7 +41,7 @@ Sonance turns your Samsung smart TV into a full-featured music player. Browse yo
 ### Option 1: Pre-built .wgt (easiest)
 
 1. Download `Sonance.wgt` from the [latest release](../../releases/latest)
-2. Install using [Jellyfin2Samsung](https://github.com/nicko88/Jellyfin2Samsung):
+2. Install using [Jellyfin2Samsung](https://github.com/Jellyfin2Samsung/Samsung-Jellyfin-Installer):
    - Enable Developer Mode on your TV (Settings → Apps → Developer Mode)
    - Open Jellyfin2Samsung on your computer
    - Go to Settings → select the downloaded `Sonance.wgt`
