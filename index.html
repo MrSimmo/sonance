@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1920, height=1080, initial-scale=1.0, user-scalable=no">
+    <title>Sonance</title>
+    <link rel="stylesheet" href="css/styles.css?v=p15d">
+</head>
+<body>
+    <div id="app"></div>
+    <audio id="sonance-audio" preload="auto" style="display:none;"></audio>
+    <audio id="sonance-audio-preload" preload="auto" style="display:none;"></audio>
+    <object id="av-player" type="application/avplayer" style="position:absolute;left:0;top:0;width:1px;height:1px;pointer-events:none;"></object>
+
+    <script type="text/javascript" src="$WEBAPIS/webapis/webapis.js"></script>
+    <script>
+        // On browser the $WEBAPIS path 404s silently, which is expected.
+        if (typeof webapis === 'undefined') {
+            console.log('[Sonance] Not on Tizen — WebAPIs not loaded');
+        }
+    </script>
+
+    <script src="js/utils.js?v=p15d"></script>
+    <script src="js/api.js?v=p15d"></script>
+    <script src="js/auth.js?v=p15d"></script>
+    <script src="js/focus.js?v=p15d"></script>
+    <script src="js/player.js?v=p15d"></script>
+    <script src="js/starred.js?v=p15d"></script>
+    <script src="js/components.js?v=p15d"></script>
+    <script src="js/screens/login.js?v=p15d"></script>
+    <script src="js/screens/home.js?v=p15d"></script>
+    <script src="js/screens/library.js?v=p15d"></script>
+    <script src="js/screens/album.js?v=p15d"></script>
+    <script src="js/screens/artist.js?v=p15d"></script>
+    <script src="js/screens/search.js?v=p15d"></script>
+    <script src="js/screens/nowplaying.js?v=p15d"></script>
+    <script src="js/screens/queue.js?v=p15d"></script>
+    <script src="js/screens/playlists.js?v=p15d"></script>
+    <script src="js/screens/settings.js?v=p15d"></script>
+    <script src="js/app.js?v=p15d"></script>
+</body>
+</html>
