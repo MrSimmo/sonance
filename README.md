@@ -1,8 +1,9 @@
 # BIG UPDATE: I have released a refresh of Sonance - Sonance3 - (https://github.com/MrSimmo/sonance3) 
-# I'll leave this repo here in case you would like the original version, but...
-# Sonance3 has a brand new hardware accelerated interface, Multiple Library Support and more!
+## I'll leave this repo here in case you would like the original version, but...
+## Sonance3 has a brand new hardware accelerated interface, Multiple Library Support and more!
 
-
+&nbsp
+&nbsp
 
 # Sonance
 
