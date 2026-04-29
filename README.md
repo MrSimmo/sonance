@@ -57,7 +57,7 @@ Sonance turns your Samsung smart TV into a full-featured music player. Browse yo
 ### Option 2: Build from source
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/sonance.git
+git clone https://github.com/MrSimmo/sonance.git
 cd sonance
 bash build.sh
 ```
